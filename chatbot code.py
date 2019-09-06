@@ -14,7 +14,7 @@ raw=raw.lower()# converts to lowercase
 #nltk.download('punkt') # first-time use only
 #nltk.download('wordnet') # first-time use only
 sent_tokens = nltk.sent_tokenize(raw)# converts to list of sentences 
-word_tokens = nltk.word_tokenize(raw)
+word_tokens = nltk.word_tokenize(raw)# converts to list of words
 
 lemmer = nltk.stem.WordNetLemmatizer()
 #WordNet is a semantically-oriented dictionary of English included in NLTK.
